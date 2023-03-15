@@ -10,11 +10,11 @@ fetch:
 
 .PHONY: serve
 serve:
-	zola serve --port 8000
+	./bin/zola serve --port 8000
 
 .PHONY: build
 build:
-	zola build
+	./bin/zola build
 
 .PHONY: install
 install:

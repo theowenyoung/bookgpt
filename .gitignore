@@ -2,3 +2,4 @@
 .env
 public
 deno.lock
+/bin

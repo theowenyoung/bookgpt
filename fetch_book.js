@@ -5,7 +5,6 @@ export async function fetchBook() {
     throw new Error("OPENAI_API_KEY is not set");
   }
   const bookName = "Middlemarch";
-
   const zhBookName = "米德尔马契";
 
   const author = "George Eliot";
@@ -36,7 +35,7 @@ description: "作者： ${author}"
 draft: false
 taxonomies:
   tags:
-    - "分类"
+    - "book"
 extra:
   feature_image: "Float.svg"
   feature: true
@@ -76,12 +75,16 @@ extra:
     markdown += `## ${theFirstQuestionPrompt.zh}
 
 ${content}
+
 `;
   }
   // write markdown to file
   // content/blog/2020/2020-06-15-title.md
 
-  const filepath = "content/blog/2020/2020-06-16-title/index.md";
+  const now = new Date();
+  const fullYear = now.getFullYear();
+  const dayStr = `${fullYear}-${now.getMonth() + 1}-${now.getDate()}`;
+  const filepath = `content/blog/${fullYear}/${dayStr}-title/${bookName}.md`;
   const parentDir = dirname(filepath);
   // ensure parent exists
   await Deno.mkdir(parentDir, { recursive: true });
