@@ -1,0 +1,59 @@
+{% extends "_base.html" %}
+
+{% block title %}{{ section.title | title }} | {{ config.title }}{% endblock title %}
+
+{% block head %}
+<!-- Primary Meta Tags -->
+<meta name="description" content="{{ section.title | title }} | {{ config.title }}">
+
+<!-- Open Graph / Facebook -->
+<meta property="og:title" content="{{ section.title | title }} | {{ config.title }}">
+<meta property="og:type" content="website">
+<meta property="og:url" content="{{ section.permalink | safe }}">
+
+<!-- Twitter -->
+<meta property="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="{{ config.extra.twitter_account }}">
+<meta name="twitter:creator" content="{{ config.extra.twitter_account }}">
+{% endblock head %}
+
+{% block page_heading %}
+<h1 class="title">
+  <a href="/">{{ config.title }}</a>
+</h1>
+{% endblock page_heading %}
+
+{% block content %}
+  <main class="article-list">
+    <div class="ad">
+      {% block ad1 %}
+      {% endblock ad1 %}
+    </div>
+    <article class="article-block title-block">
+      <h2 class="heading">
+        {{ section.title }}
+      </h2>
+      <aside class="page">
+        Page {{ paginator.current_index }} / {{ paginator.number_pagers }}
+      </aside>
+    </article>
+    {% for post in paginator.pages %}
+      {{ macros::article_block(post=post) }}
+    {% endfor %}
+
+    <div class="ad">
+      {% block ad2 %}
+      {% endblock ad2 %}
+    </div>
+
+    <article class="article-block read-more">
+        <a href="{{ paginator.next }}"  class="link">
+          <h4 class="heading">
+            Next
+          </h4>
+        </a>
+    </article>
+
+    {{ macros::paginator_block() }}
+  </main>
+{% endblock content %}

@@ -1,0 +1,37 @@
+name = "Float"
+description = "An elegant blog theme"
+license = "MIT"
+homepage = "https://float-theme.netlify.app/"
+# The minimum version of Zola required
+min_version = "0.15.3"
+
+# Any variable there can be overriden in the end user `config.toml`
+# You don't need to prefix variables by the theme name but as this will
+# be merged with user data, some kind of prefix or nesting is preferable
+# Use snake_casing to be consistent with the rest of Zola
+[extra]
+main_section = "blog"
+
+google_analytics = false
+# google_analytics_id = "UA-XXXXXX-X"
+
+google_adsense = false
+# google_adsense_id = "ca-pub-XXXXXXXXXXXXXXXX"
+
+display_twitter_link = false
+twitter_account = "@xxx"
+twitter_url = "https://www.twitter.com/"
+
+display_facebook_link = false
+facebook_url = "https://www.facebook.com/"
+
+likecoin = false
+# likecoin_name = "xxx"
+
+utterances = false
+# utterances_repo = "xxx/xxx"
+
+# The theme author info: you!
+[author]
+name = "Leon"
+homepage = "https://editor.leonh.space/"

@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="480"
+   height="480"
+   viewBox="0 0 127 127"
+   version="1.1"
+   id="svg42"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   sodipodi:docname="Float.svg"
+   inkscape:export-filename="/home/leon/圖片/Float.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96">
+  <defs
+     id="defs36">
+    <inkscape:path-effect
+       effect="simplify"
+       id="path-effect904"
+       is_visible="true"
+       steps="1"
+       threshold="0.002"
+       smooth_angles="0"
+       helper_size="5"
+       simplify_individual_paths="false"
+       simplify_just_coalesce="false" />
+    <inkscape:path-effect
+       effect="rough_hatches"
+       id="path-effect871"
+       is_visible="true"
+       direction="63.499996,228.5 , 22.339542,0"
+       dist_rdm="0;1023068456"
+       growth="0"
+       do_bend="false"
+       bender="63.499996,233.5 , 5,0"
+       bottom_edge_variation="-0.2;1"
+       top_edge_variation="0;1"
+       bottom_tgt_variation="0;1"
+       top_tgt_variation="0;1"
+       scale_bf="0.1"
+       scale_bb="1"
+       scale_tf="1"
+       scale_tb="0.9"
+       top_smth_variation="0;1"
+       bottom_smth_variation="0;1"
+       fat_output="true"
+       stroke_width_top="1"
+       stroke_width_bottom="1"
+       front_thickness="1"
+       back_thickness="0.25" />
+    <inkscape:path-effect
+       effect="bend_path"
+       id="path-effect869"
+       is_visible="true"
+       bendpath="M 18.820913,233.5 H 108.17908"
+       prop_scale="1"
+       scale_y_rel="false"
+       vertical="false" />
+    <filter
+       style="color-interpolation-filters:sRGB"
+       inkscape:label="Drop Shadow"
+       id="filter2011">
+      <feFlood
+         flood-opacity="0.505882"
+         flood-color="rgb(0,0,0)"
+         result="flood"
+         id="feFlood2001" />
+      <feComposite
+         in="flood"
+         in2="SourceGraphic"
+         operator="in"
+         result="composite1"
+         id="feComposite2003" />
+      <feGaussianBlur
+         in="composite1"
+         stdDeviation="0.2"
+         result="blur"
+         id="feGaussianBlur2005" />
+      <feOffset
+         dx="1.52656e-15"
+         dy="0.1"
+         result="offset"
+         id="feOffset2007" />
+      <feComposite
+         in="offset"
+         in2="SourceGraphic"
+         operator="out"
+         result="composite2"
+         id="feComposite2009" />
+    </filter>
+    <filter
+       style="color-interpolation-filters:sRGB"
+       inkscape:label="Drop Shadow"
+       id="filter2091">
+      <feFlood
+         flood-opacity="0.505882"
+         flood-color="rgb(0,0,0)"
+         result="flood"
+         id="feFlood2081" />
+      <feComposite
+         in="flood"
+         in2="SourceGraphic"
+         operator="in"
+         result="composite1"
+         id="feComposite2083" />
+      <feGaussianBlur
+         in="composite1"
+         stdDeviation="0.2"
+         result="blur"
+         id="feGaussianBlur2085" />
+      <feOffset
+         dx="1.52656e-15"
+         dy="0.1"
+         result="offset"
+         id="feOffset2087" />
+      <feComposite
+         in="offset"
+         in2="SourceGraphic"
+         operator="out"
+         result="composite2"
+         id="feComposite2089" />
+    </filter>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.5390625"
+     inkscape:cx="665.49483"
+     inkscape:cy="380.14552"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     units="px"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="1440"
+     inkscape:window-y="30"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata39">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="圖層 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-170)">
+    <rect
+       style="fill:#ffcc00;stroke:none;stroke-width:1.16425264;stroke-miterlimit:4;stroke-dasharray:none"
+       id="rect893"
+       width="127.02646"
+       height="127.02646"
+       x="-0.01322937"
+       y="169.98677" />
+    <g
+       aria-label="Float"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.58333302px;line-height:1.25;font-family:'Noto Sans CJK TC';-inkscape-font-specification:'Noto Sans CJK TC';letter-spacing:0px;word-spacing:0px;fill:#404040;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       id="text897"
+       transform="translate(3.5e-6)">
+      <path
+         d="m 37.509669,221.70593 1.501423,6.08471 h 2.1336 l -0.03951,-7.74418 H 18.820913 v 1.4224 l 3.753556,0.3556 c 0.07902,3.99063 0.07902,7.98125 0.07902,11.93236 v 1.93604 c 0,4.03014 0,8.02076 -0.07902,11.93236 l -3.753556,0.3556 v 1.38289 h 13.670845 v -1.38289 l -4.227689,-0.39511 c -0.118533,-3.95111 -0.118533,-8.02076 -0.118533,-12.40649 h 6.0452 l 0.592667,4.46475 h 1.857022 v -10.27288 h -1.857022 l -0.592667,4.30671 h -6.0452 c 0,-4.14867 0,-8.09978 0.118533,-11.97187 z"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:39.51111221px;font-family:'Noto Serif CJK TC';-inkscape-font-specification:'Noto Serif CJK TC Bold';text-align:center;letter-spacing:-2.64583325px;text-anchor:middle;fill:#404040;stroke-width:0.26458332"
+         id="path841"
+         inkscape:connector-curvature="0" />
+      <path
+         d="m 49.311938,247.82278 c -0.07902,-2.52872 -0.118533,-5.25498 -0.118533,-7.74418 v -16.43663 l 0.158044,-6.28226 -0.553155,-0.3556 -7.941734,1.69898 v 1.10631 l 3.2004,0.23706 v 20.03214 c 0,2.4892 -0.03951,5.21546 -0.118533,7.70466 l -3.042356,0.3556 v 1.22485 h 11.458223 v -1.22485 z"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:39.51111221px;font-family:'Noto Serif CJK TC';-inkscape-font-specification:'Noto Serif CJK TC Bold';text-align:center;letter-spacing:-2.64583325px;text-anchor:middle;fill:#404040;stroke-width:0.26458332"
+         id="path843"
+         inkscape:connector-curvature="0" />
+      <path
+         d="m 63.164464,249.99589 c 6.045201,0 10.668001,-4.14867 10.668001,-11.26067 0,-7.112 -4.938889,-11.14213 -10.668001,-11.14213 -5.768622,0 -10.668,4.06964 -10.668,11.14213 0,7.07249 4.543778,11.26067 10.668,11.26067 z m 0,-1.46191 c -3.279422,0 -5.096933,-3.2004 -5.096933,-9.75925 0,-6.51933 1.817511,-9.71973 5.096933,-9.71973 3.2004,0 5.096934,3.2004 5.096934,9.71973 0,6.55885 -1.896534,9.75925 -5.096934,9.75925 z"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:39.51111221px;font-family:'Noto Serif CJK TC';-inkscape-font-specification:'Noto Serif CJK TC Bold';text-align:center;letter-spacing:-2.64583325px;text-anchor:middle;fill:#404040;stroke-width:0.26458332"
+         id="path845"
+         inkscape:connector-curvature="0" />
+      <path
+         d="m 86.563864,245.33358 c -1.817511,1.50142 -2.805289,2.09408 -4.109156,2.09408 -1.896533,0 -3.160889,-1.10631 -3.160889,-3.43746 0,-2.44969 1.185334,-4.2672 4.306712,-5.49205 0.671689,-0.27658 1.778,-0.59266 2.963333,-0.94826 z m 8.257823,1.30386 c -0.7112,0.94827 -1.185334,1.30387 -1.778001,1.30387 -0.869244,0 -1.4224,-0.59267 -1.4224,-2.37067 v -10.19387 c 0,-5.53155 -2.173111,-7.78368 -7.349066,-7.78368 -5.492045,0 -8.771467,2.21262 -9.285112,5.76862 0.237067,1.18533 1.0668,1.81751 2.370667,1.81751 1.343378,0 2.410178,-0.86925 2.568222,-3.04236 l 0.553156,-2.8448 c 0.7112,-0.15804 1.382889,-0.23706 2.054578,-0.23706 2.963333,0 4.030133,1.14582 4.030133,5.334 v 2.01506 c -1.540933,0.3556 -3.121378,0.79023 -4.306711,1.18534 -6.084711,1.89653 -7.902223,3.83257 -7.902223,7.112 0,3.31893 2.410178,5.29449 5.729112,5.29449 2.923822,0 4.464755,-1.22485 6.637867,-3.51649 0.513644,2.1336 1.896533,3.47698 4.306711,3.47698 2.094089,0 3.476978,-0.75072 4.504267,-2.72627 z"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:39.51111221px;font-family:'Noto Serif CJK TC';-inkscape-font-specification:'Noto Serif CJK TC Bold';text-align:center;letter-spacing:-2.64583325px;text-anchor:middle;fill:#404040;stroke-width:0.26458332"
+         id="path847"
+         inkscape:connector-curvature="0" />
+      <path
+         d="m 107.46788,246.43989 c -1.0668,0.79022 -1.778,1.18533 -2.80528,1.18533 -1.58045,0 -2.56823,-0.90876 -2.56823,-3.12138 v -14.61911 h 5.25498 v -1.65947 h -5.21547 l 0.11854,-6.24275 h -3.397958 l -1.698978,6.20324 -3.674534,0.39511 v 1.30387 h 3.397956 v 10.35191 c 0,1.58045 -0.03951,2.68676 -0.03951,3.95111 0,4.03014 2.015067,5.80814 5.650084,5.80814 2.68676,0 4.54378,-1.02729 5.6896,-2.80529 z"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:39.51111221px;font-family:'Noto Serif CJK TC';-inkscape-font-specification:'Noto Serif CJK TC Bold';text-align:center;letter-spacing:-2.64583325px;text-anchor:middle;fill:#404040;stroke-width:0.26458332"
+         id="path849"
+         inkscape:connector-curvature="0" />
+    </g>
+    <text
+       id="text839"
+       y="136.28696"
+       x="170.50348"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.58333302px;line-height:1.25;font-family:'Noto Sans CJK TC';-inkscape-font-specification:'Noto Sans CJK TC';letter-spacing:0px;word-spacing:0px;fill:#404040;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:39.51111111px;font-family:'Noto Serif CJK TC';-inkscape-font-specification:'Noto Serif CJK TC Bold';text-align:center;letter-spacing:-2.64583325px;text-anchor:middle;fill:#404040;stroke-width:0.26458332"
+         y="136.28696"
+         x="169.18056"
+         id="tspan837"
+         sodipodi:role="line">Float</tspan></text>
+  </g>
+</svg>

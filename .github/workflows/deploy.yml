@@ -1,0 +1,25 @@
+name: Deploy Site
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths-ignore:
+      - 'scripts/**'
+jobs:
+  build-deploy:
+    concurrency: deploy
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - run: make install
+      - name: Build Site
+        run: make build
+      - name: Publish to pages 
+        uses: cloudflare/pages-action@1
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          projectName: bookgpt # e.g. 'my-project'
+          directory: ./public # e.g. 'dist'
+          gitHubToken: ${{ secrets.GITHUB_TOKEN }}

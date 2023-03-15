@@ -1,0 +1,64 @@
+{% extends "_base.html" %}
+
+{% block title %}{{ config.title }}{% endblock title %}
+
+{% block head %}
+<!-- Primary Meta Tags -->
+<meta name="description" content="{{ config.description }}">
+
+<!-- Open Graph / Facebook -->
+<meta property="og:title" content="{{ config.title }}">
+<meta property="og:type" content="website">
+<meta property="og:url" content="{{ config.base_url | safe }}">
+
+<!-- Twitter -->
+<meta property="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="{{ config.extra.twitter_account }}">
+<meta name="twitter:creator" content="{{ config.extra.twitter_account }}">
+{% endblock head %}
+
+{% block content %}
+  <main class="article-list">
+    <div class="ad">
+      {% block ad1 %}
+      {% endblock ad1 %}
+    </div>
+    {% set main_section = config.extra.main_section %}
+    {%- if lang == config.default_language %}
+      {% set section = get_section(path=main_section ~ "/_index.md") %}
+    {%- else %}
+      {% set path = main_section ~ "/_index." ~ lang ~ ".md" %}
+      {% set section = get_section(path=path) %}
+    {% endif %}
+    {% for post in section.pages | slice(end=6) %}
+      {{ macros::article_block(post=post) }}
+    {% endfor %}
+    <div class="ad">
+      {% block ad2 %}
+      {% endblock ad2 %}
+    </div>
+    {% if section.pages | length > 6 %}
+      <article class="article-block read-more">
+        <a href="{{ section.permalink | safe }}page/2"  class="link">
+          <h4 class="heading">
+            More
+          </h4>
+        </a>
+      </article>
+    {% endif %}
+  </main>
+  {# <pre style="font-size: xx-small; 
+              height: 50vh; 
+              overflow: auto; 
+              padding-top: 1em; 
+              padding-bottom: 1em; 
+              margin-top: 1em; 
+              margin-bottom: 1em;
+              grid-column-start: 1;
+              grid-column-end: -1;
+              background-color: hsla(0, 0%, 90%, 1.0);">
+    <code>
+      {{ __tera_context | escape }}
+    </code>
+  </pre> #}
+{% endblock content %}
