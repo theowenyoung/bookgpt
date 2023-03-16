@@ -7,12 +7,15 @@ export async function fetchBook() {
   // const bookName = "Middlemarch";
   // const zhBookName = "米德尔马契";
 
-  // const bookName = "the grapes of wrath";
-  // const zhBookName = "愤怒的葡萄";
+  // const bookName = "Disprezzo";
+  // const zhBookName = "鄙视";
 
-  const bookName = "Stolen Focus";
-  const zhBookName = "被偷走的注意力";
+  const bookName = "the handmaids tale";
+  const zhBookName = "使女的故事";
 
+  // const bookName = "Stolen Focus";
+  // const zhBookName = "被偷走的注意力";
+  //
   const author = "George Eliot";
 
   const allPrompts = [];
