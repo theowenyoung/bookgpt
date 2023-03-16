@@ -30,7 +30,7 @@
       {% set path = main_section ~ "/_index." ~ lang ~ ".md" %}
       {% set section = get_section(path=path) %}
     {% endif %}
-    {% for post in section.pages | slice(end=6) %}
+    {% for post in section.pages | slice(end=10) %}
       {{ macros::article_block(post=post) }}
     {% endfor %}
     <div class="ad">
