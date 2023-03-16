@@ -4,8 +4,14 @@ export async function fetchBook() {
   if (!openAIKey) {
     throw new Error("OPENAI_API_KEY is not set");
   }
-  const bookName = "Middlemarch";
-  const zhBookName = "米德尔马契";
+  // const bookName = "Middlemarch";
+  // const zhBookName = "米德尔马契";
+
+  // const bookName = "the grapes of wrath";
+  // const zhBookName = "愤怒的葡萄";
+
+  const bookName = "Stolen Focus";
+  const zhBookName = "被偷走的注意力";
 
   const author = "George Eliot";
 
@@ -83,8 +89,8 @@ ${content}
 
   const now = new Date();
   const fullYear = now.getFullYear();
-  const dayStr = `${fullYear}-${now.getMonth() + 1}-${now.getDate()}`;
-  const filepath = `content/blog/${fullYear}/${dayStr}-title/${bookName}.md`;
+  const dayStr = `${fullYear}-${addZero(now.getMonth() + 1)}-${now.getDate()}`;
+  const filepath = `content/blog/${fullYear}/${dayStr}-${bookName}/index.md`;
   const parentDir = dirname(filepath);
   // ensure parent exists
   await Deno.mkdir(parentDir, { recursive: true });
@@ -92,6 +98,10 @@ ${content}
 }
 
 fetchBook();
+
+export function addZero(num) {
+  return num < 10 ? `0${num}` : num;
+}
 
 export function getPrefixMessages() {
   return [
